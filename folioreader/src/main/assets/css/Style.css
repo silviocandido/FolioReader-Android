@@ -229,31 +229,38 @@ html.nightMode .highlight_underline {border-bottom: 2px solid rgba(240, 40, 20, 
  *
  */
 
-@font-face {
-    font-family: "Andada";
-    src: url("../Fonts/Andada-Regular.otf");
+ @font-face {
+    font-family: 'andada';
+    src: url('file:///android_asset/fonts/andada/Andada-Regular.otf');
 }
 
 @font-face {
-    font-family: "Lato";
-    src: url("../Fonts/Lato-Regular.ttf");
+    font-family: 'lato';
+    src: url('file:///android_asset/fonts/lato/Lato-Regular.ttf');
 }
 
 @font-face {
-    font-family: "Lora";
-    src: url("../Fonts/Lora-Regular.ttf");
+    font-family: 'lora';
+    src: url('file:///android_asset/fonts/lora/Lora-Regular.ttf');
 }
 
 @font-face {
-    font-family: "Raleway";
-    src: url("../Fonts/Raleway-Regular.ttf");
+    font-family: 'raleway';
+    src: url('file:///android_asset/fonts/raleway/Raleway-Regular.ttf');
 }
 
-.andada, .andada p, .andada span, .andada div { font-family: "Andada", sans-serif !important; }
-.lato, .lato p, .lato span, .lato div { font-family: "Lato", serif !important; }
-.lora, .lora p, .lora span, .lora div { font-family: "Lora", serif !important; }
-.raleway, .raleway p, .raleway span, .raleway div { font-family: "Raleway", sans-serif !important; }
-
+.andada {
+     font-family: "andada", sans-serif !important; ;
+ }
+.lato {
+     font-family: "lato", serif !important; ;
+ }
+.lora {
+     font-family: "lora", serif !important; ;
+ }
+.raleway {
+     font-family: "raleway", sans-serif !important; ;
+}
 
 html.textSizeOne { font-size: 13px !important; }
 html.textSizeTwo { font-size: 15px !important; }
